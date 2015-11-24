@@ -18,6 +18,7 @@ public class TriangleLoop {
         return total;
     }
 
+    public static void main(String[] args) {
         System.out.println("Enter the number: ");
         int number = scanner.nextInt();
         System.out.println("The " + number+"th triangular number is  " + triangle(number));
